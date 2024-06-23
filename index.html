@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/all.css" />
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/Style.css" />
+  <title>Document</title>
+</head>
+
+<body >
+  <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white fs-3" href="#">Weather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="header position-relative d-flex justify-content-center align-items-center ">
+   
+    <div class="container holder  h-100  d-flex justify-content-center mt-3 py-5 ">
+      <div class="moon-img ">
+        <img src="images/a0261b885cfba5a65c675c33327acf5a.png" class='w-50 float-end' alt="">
+      </div>
+      <div class="moon-img2">
+      <img src="images/download.png" alt="" class="w-50 float-start">  
+      </div>
+      <div class="content p-3 w-75 rounded shadow position-relative ">
+        <div class="row">
+          <div class="col-12">
+            <div class="search pb-3">
+              <input type="search" class="form-control rounded-pill" id="search">
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4 text-white align-items-stretch" id="tRow">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
